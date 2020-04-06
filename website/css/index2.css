@@ -1,0 +1,119 @@
+@font-face {
+    font-family: 'TitlingGothicFB Comp Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('TitlingGothicFB Comp Regular'), url('../fonts/TitlingGothicFB/TitlingGothicFBComp-Reg.woff') format('woff');
+    }
+    
+    
+    @font-face {
+    font-family: 'TitlingGothicFB Comp Thin';
+    font-style: normal;
+    font-weight: normal;
+    src: local('TitlingGothicFB Comp Thin'), url('../fonts/TitlingGothicFB/TitlingGothicFBComp-Thin.woff') format('woff');
+    }
+    
+    
+    @font-face {
+    font-family: 'TitlingGothicFB Comp Light';
+    font-style: normal;
+    font-weight: normal;
+    src: local('TitlingGothicFB Comp Light'), url('../fonts/TitlingGothicFB/TitlingGothicFBComp-Light.woff') format('woff');
+    }
+    
+    
+    @font-face {
+    font-family: 'TitlingGothicFB Comp Standard';
+    font-style: normal;
+    font-weight: normal;
+    src: local('TitlingGothicFB Comp Standard'), url('../fonts/TitlingGothicFB/TitlingGothicFBComp-Stand.woff') format('woff');
+    }
+
+    @font-face {
+        font-family: 'TitlingGothicFB Comp Standard';
+        font-style: normal;
+        font-weight: normal;
+        src: local('TitlingGothicFB Comp Standard'), url('../fonts/TitlingGothicFB/TitlingGothicFBComp-Stand.woff') format('woff');
+        }
+    
+    
+    @font-face {
+    font-family: 'TitlingGothicFB Comp Medium';
+    font-style: normal;
+    font-weight: normal;
+    src: local('TitlingGothicFB Comp Medium'), url('../fonts/TitlingGothicFB/TitlingGothicFBComp-Med.woff') format('woff');
+    }
+    
+    
+    @font-face {
+    font-family: 'TitlingGothicFB Comp Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('TitlingGothicFB Comp Bold'), url('../fonts/TitlingGothicFB/TitlingGothicFBComp-Bold.woff') format('woff');
+    }
+    
+    
+    @font-face {
+    font-family: 'TitlingGothicFB Comp Black';
+    font-style: normal;
+    font-weight: normal;
+    src: local('TitlingGothicFB Comp Black'), url('../fonts/TitlingGothicFB/TitlingGothicFBComp-Black.woff') format('woff');
+    }
+
+    @font-face {
+        font-family: 'MediaGothic';
+        font-style: normal;
+        font-weight: normal;
+        src: local('MediaGothic'), url('../fonts/MediaGothic/Media-Gothic.ttf') format('woff');
+        }
+
+
+body{
+    background-color: black !important;
+    animation: fadeInAnimation ease 4s ;
+    animation-iteration-count: 1; 
+    animation-fill-mode: forwards; 
+}
+
+@keyframes fadeInAnimation { 
+    0% {
+        opacity: 0;
+
+    }   60% {
+        opacity: 1;
+
+    }
+    70% {
+        opacity: 1;
+
+    }
+    100% {
+        opacity: 0;
+
+    }
+} 
+
+.prdxTitle{
+    color:white;
+    font-family: 'Michroma', sans-serif ;
+    font-size: 40px;
+    letter-spacing: 40px;
+    text-indent: 40px;
+}
+
+.vertical-center{
+    min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+  min-height: 100vh; /* These two lines are counted as one :-)       */
+
+  display: flex;
+  align-items: center;
+}
+
+.topSpacingTitle{
+    margin-top: 40px;
+}
+
+.centerMainDiv{
+    margin-top: 25vh;
+}
+

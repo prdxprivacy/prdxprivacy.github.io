@@ -1,0 +1,1 @@
+  2020-04-02 1:01:44 PM EDT: Starting composition “TRIANGLE”.  Output To: /Users/juanrojas/Documents/GBC_SEM6/PRDX/website/videos/newVid/triangle_small.mov    2020-04-02 1:01:47 PM EDT: Finished composition “TRIANGLE”.  Total Time Elapsed: 3 SecondsLog closed on 2020-04-02 at 1:01:47 PM EDT

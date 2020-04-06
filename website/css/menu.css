@@ -1,0 +1,54 @@
+@font-face {
+    font-family: 'ArialMt';
+    font-style: normal;
+    font-weight: normal;
+    src: local('ArialMt'), url('../fonts/Arial/arial_mt/ARI.ttf') format('woff');
+    }
+
+body{
+    background-color: black !important;
+    animation: fadeInAnimation ease 2s ;
+    animation-iteration-count: 1; 
+    animation-fill-mode: forwards; 
+}
+@keyframes fadeInAnimation { 
+    0% {
+        opacity: 0;
+
+    }   
+    100%{
+        opacity: 1;
+    }
+} 
+.vertical-center{
+    min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+  min-height: 100vh; /* These two lines are counted as one :-)       */
+
+  display: flex;
+  align-items: center;
+}
+
+.centerMainDiv{
+    margin-top: 35vh;
+}
+
+.surveillanceSize{
+    height: 63% !important;
+}
+
+.consentSize{
+    height: 63% !important;
+}
+
+.exhibitSize{
+    height:63% !important;
+}
+
+.menuTextTopSpacing{
+    margin-top: 30px;
+}
+
+.menuTextStyling{
+    font-family: ArialMt;
+    color:#CED3D3;
+}
