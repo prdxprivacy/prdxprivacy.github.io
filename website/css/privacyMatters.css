@@ -1,0 +1,84 @@
+body{
+    background-color: black !important;
+    animation: fadeInAnimation ease 2s ;
+    animation-iteration-count: 1; 
+    animation-fill-mode: forwards; 
+}
+
+.Rectangle_72 {
+    position: absolute;
+
+    height: 7207px;
+
+}
+
+.textOutStyling{
+    color:#6326D6;
+    margin-top:33vh;
+}
+
+.prdxTitle{
+    color:white;
+    font-size: 30px;
+    letter-spacing: 40px;
+    text-indent: 40px;
+    font-family: 'Michroma', sans-serif ;
+    font-size: 80px;
+}
+
+.historyTimeLine{
+    margin-top: 50vh;
+}
+
+.quoteMorp{
+    padding: 0px 15vw 0px 15vw;
+    letter-spacing: 8px;
+    font-size: 15px;
+    text-transform: uppercase;
+    margin-top: 35px;
+}
+
+.svgStyling{
+    position: absolute;
+    margin-left: 13vw;
+}
+
+.wrapper{
+    margin: 0 auto; 
+}
+.wrapper svg{
+     transform: translate(-50%,0); position: absolute; z-index: 0
+}
+
+.histStyling{
+    font-family: 'Michroma', sans-serif;
+    font-size: 20px;
+    letter-spacing: 25px;
+    text-indent: 25px;
+    color: white;
+    margin-top: 6vh;
+}
+.mainRectSty{
+fill:#501AE2;
+stroke-width:3;
+stroke:rgb(0,0,0)
+}
+
+.containerSty{
+    margin-top: 20vh;
+}
+
+.weaponStyTitle{
+    font-family: 'Michroma', sans-serif;
+    font-size: 30px;
+    letter-spacing: 20px;
+
+    color: white;
+    margin-top: 6vh;
+}
+
+.quoteSty{
+    font-family: ArialMt;
+    color: #CED3D3;
+    font-size: 13px;
+}
