@@ -10,7 +10,7 @@ body{
 }
 
 /* Hide scrollbar for IE and Edge */
-.hideScroll {
+.example {
     -ms-overflow-style: none;
 }
 @keyframes fadeInAnimation { 
@@ -24,10 +24,10 @@ body{
 } 
 
 .timeLineYear{
-    color:whitesmoke;
+    color:#BCBCBC;
 }
 .timeLineDesc{
-    color: ghostwhite;
+    color: #707070;
 }
 .timeLineTitle{
     font-weight: 600;

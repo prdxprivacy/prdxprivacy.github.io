@@ -1,17 +1,76 @@
+@font-face {
+    font-family: Titling; 
+    src: url('../fonts/TitlingGothicFB/TitlingGothicFBComp-Light.woff'); 
+}
+@font-face {
+    font-family: 'ArialMt';
+    font-style: normal;
+    font-weight: normal;
+    src: local('ArialMt'), url('../fonts/Arial/arial_mt/ARI.ttf') format('woff');
+    }
+
+@font-face {
+    font-family: 'Arialth';
+    font-style: normal;
+    font-weight: normal;
+    src: local('ArialTh'), url('../fonts/Arial/arial_ce/ArialCE.ttf.png') format('woff');
+    }
 body{
     background-color: black !important;
     animation: fadeInAnimation ease 2s ;
     animation-iteration-count: 1; 
     animation-fill-mode: forwards; 
 }
-
+.hideScroll::-webkit-scrollbar {
+    display: none;
+}
+.pageTitle{
+    font-family: 'Michroma', sans-serif ;
+    font-size: 20px;
+    letter-spacing: 25px;
+    text-indent: 25px;
+    color:white;
+}
 .Rectangle_72 {
     position: absolute;
 
     height: 7207px;
 
 }
+.mattersSize{
+    height: 54% !important;
+}
+.surveillanceSize{
+    height: 54% !important;
+}
 
+.consentSize{
+    height: 54% !important;
+}
+
+.exhibitSize{
+    height:54% !important;
+}
+.menuTextTopSpacing{
+    margin-top: 30px;
+}
+.menuTextStyling{
+    font-family: ArialMt;
+    color:#CED3D3;
+}
+.spaceTop{
+    margin-top: 27vh;
+}
+
+.spaceTopBottom{
+    margin-top: 26vh;
+    margin-bottom: 10vh;
+}
+
+.spaceTopMoreBottom{
+    margin-top: 37vh;
+    margin-bottom: 10vh;
+}
 .textOutStyling{
     color:#6326D6;
     margin-top:33vh;
@@ -26,6 +85,12 @@ body{
     font-size: 80px;
 }
 
+.prdxVideoTitle{
+    font-family: 'Michroma', sans-serif ;
+    color:#A0A5A9;
+    font-size: 31px;
+    letter-spacing: 11px;
+}
 .historyTimeLine{
     margin-top: 50vh;
 }
@@ -38,6 +103,46 @@ body{
     margin-top: 35px;
 }
 
+.videoAbout{
+    font-size:30px;
+    color: #8E8F87;
+    font-family: 'Michroma', sans-serif ;
+}
+
+.videoDesc{
+    font-size:18px;
+    color: #D8DDDE;
+    font-family: 'ArialCEBold', sans-serif ;
+}
+
+.videoDescMinor{
+    font-size:15px;
+    color: #D8DDDE;
+    font-family: 'ArialMt', sans-serif ;
+}
+
+.videoDescConv{
+    font-family: 'Lato', sans-serif;
+    color: #D8DDDE;
+    font-weight: 100;
+}
+
+.linkCam{
+    font-family: 'Lato', sans-serif;
+    color: #D8DDDE;
+    font-weight: 100;
+    font-size:15px;
+}
+.quoteAuthor{
+    font-family: 'Arialth', sans-serif;
+    font-size:13px;
+    color:#D8DDDE;
+    display: block; /*span does not display block level as it's an inline element which takes up margins horizontally only*/
+    margin-top: 0px;
+}
+.spaceTopVideoDesc{
+    margin-top: 7vh;
+}
 .svgStyling{
     position: absolute;
     margin-left: 13vw;
@@ -82,3 +187,41 @@ stroke:rgb(0,0,0)
     color: #CED3D3;
     font-size: 13px;
 }
+
+.fade{
+    animation: fadeOutAnimation ease 4s ;
+}
+
+@keyframes fadeOutAnimation { 
+    100% {
+        opacity: 1;
+
+    }   
+    0% {
+        opacity: 0;
+
+    }
+} 
+
+.fadeOutt {
+    animation: fadeOut ease 1s ; 
+  }
+  @keyframes fadeOut {
+    0% {
+        opacity: 1;
+
+    }   
+    100%{
+        opacity: 0;
+    }
+  }
+
+  @keyframes fadeInAnimation { 
+    0% {
+        opacity: 0;
+
+    }   
+    100%{
+        opacity: 1;
+    }
+} 

@@ -32,16 +32,19 @@ body{
     margin-top: 35vh;
 }
 
+.mattersSize{
+    height: 54% !important;
+}
 .surveillanceSize{
-    height: 63% !important;
+    height: 54% !important;
 }
 
 .consentSize{
-    height: 63% !important;
+    height: 54% !important;
 }
 
 .exhibitSize{
-    height:63% !important;
+    height:54% !important;
 }
 
 .menuTextTopSpacing{
