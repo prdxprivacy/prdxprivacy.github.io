@@ -16,7 +16,7 @@
     src: local('ArialTh'), url('../fonts/Arial/arial_ce/ArialCE.ttf.png') format('woff');
     }
 body{
-    background-color: black !important;
+    background-color: #030303 !important;
     animation: fadeInAnimation ease 2s ;
     animation-iteration-count: 1; 
     animation-fill-mode: forwards; 
@@ -63,7 +63,7 @@ body{
 }
 
 .spaceTopBottom{
-    margin-top: 26vh;
+    margin-top: 30vh;
     margin-bottom: 10vh;
 }
 
