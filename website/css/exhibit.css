@@ -74,12 +74,29 @@ body{
 .spaceTop{
     margin-top: 27vh;
 }
-
+.onboardingInfo{
+    color:White;
+    margin-top: 10px;
+    font-family: 'ArialMt';
+}
 .spaceTopBottom{
     margin-top: 30vh;
     margin-bottom: 10vh;
 }
 
+.imageDesc{
+    margin-top: -60px; color:white;
+    font-family: 'Lato', sans-serif;
+    font-weight: 100;
+
+}
+
+.imageDescNoTop{
+    margin-top: 10px;
+    color:white;
+    font-family: 'Lato', sans-serif;
+    font-weight: 100;
+}
 .spaceTopMoreBottom{
     margin-top: 37vh;
     margin-bottom: 10vh;
